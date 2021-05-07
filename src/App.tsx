@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchCatsRequest());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="App">
